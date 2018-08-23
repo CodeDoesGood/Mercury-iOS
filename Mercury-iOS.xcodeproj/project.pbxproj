@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E88212F2653007A53ED /* AppDelegate.swift */; };
+		E5675E8B212F2653007A53ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E8A212F2653007A53ED /* ViewController.swift */; };
+		E5675E8E212F2653007A53ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5675E8C212F2653007A53ED /* Main.storyboard */; };
+		E5675E90212F2657007A53ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5675E8F212F2657007A53ED /* Assets.xcassets */; };
+		E5675E93212F2657007A53ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5675E91212F2657007A53ED /* LaunchScreen.storyboard */; };
+		E5675E9E212F2657007A53ED /* Mercury_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E9D212F2657007A53ED /* Mercury_iOSTests.swift */; };
+		E5675EA9212F2658007A53ED /* Mercury_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675EA8212F2658007A53ED /* Mercury_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5675E9A212F2657007A53ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5675E7D212F2653007A53ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5675E84212F2653007A53ED;
+			remoteInfo = "Mercury-iOS";
+		};
+		E5675EA5212F2658007A53ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5675E7D212F2653007A53ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5675E84212F2653007A53ED;
+			remoteInfo = "Mercury-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5675E85212F2653007A53ED /* Mercury-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercury-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5675E88212F2653007A53ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5675E8A212F2653007A53ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5675E8D212F2653007A53ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5675E8F212F2657007A53ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5675E92212F2657007A53ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5675E94212F2657007A53ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5675E99212F2657007A53ED /* Mercury-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercury-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5675E9D212F2657007A53ED /* Mercury_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercury_iOSTests.swift; sourceTree = "<group>"; };
+		E5675E9F212F2657007A53ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5675EA4212F2658007A53ED /* Mercury-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercury-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5675EA8212F2658007A53ED /* Mercury_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercury_iOSUITests.swift; sourceTree = "<group>"; };
+		E5675EAA212F2658007A53ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5675E82212F2653007A53ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675E96212F2657007A53ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675EA1212F2658007A53ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5675E7C212F2653007A53ED = {
+			isa = PBXGroup;
+			children = (
+				E5675E87212F2653007A53ED /* Mercury-iOS */,
+				E5675E9C212F2657007A53ED /* Mercury-iOSTests */,
+				E5675EA7212F2658007A53ED /* Mercury-iOSUITests */,
+				E5675E86212F2653007A53ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5675E86212F2653007A53ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5675E85212F2653007A53ED /* Mercury-iOS.app */,
+				E5675E99212F2657007A53ED /* Mercury-iOSTests.xctest */,
+				E5675EA4212F2658007A53ED /* Mercury-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5675E87212F2653007A53ED /* Mercury-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5675E88212F2653007A53ED /* AppDelegate.swift */,
+				E5675E8A212F2653007A53ED /* ViewController.swift */,
+				E5675E8C212F2653007A53ED /* Main.storyboard */,
+				E5675E8F212F2657007A53ED /* Assets.xcassets */,
+				E5675E91212F2657007A53ED /* LaunchScreen.storyboard */,
+				E5675E94212F2657007A53ED /* Info.plist */,
+			);
+			path = "Mercury-iOS";
+			sourceTree = "<group>";
+		};
+		E5675E9C212F2657007A53ED /* Mercury-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5675E9D212F2657007A53ED /* Mercury_iOSTests.swift */,
+				E5675E9F212F2657007A53ED /* Info.plist */,
+			);
+			path = "Mercury-iOSTests";
+			sourceTree = "<group>";
+		};
+		E5675EA7212F2658007A53ED /* Mercury-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5675EA8212F2658007A53ED /* Mercury_iOSUITests.swift */,
+				E5675EAA212F2658007A53ED /* Info.plist */,
+			);
+			path = "Mercury-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5675E84212F2653007A53ED /* Mercury-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5675EAD212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOS" */;
+			buildPhases = (
+				E5675E81212F2653007A53ED /* Sources */,
+				E5675E82212F2653007A53ED /* Frameworks */,
+				E5675E83212F2653007A53ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mercury-iOS";
+			productName = "Mercury-iOS";
+			productReference = E5675E85212F2653007A53ED /* Mercury-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5675E98212F2657007A53ED /* Mercury-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5675EB0212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOSTests" */;
+			buildPhases = (
+				E5675E95212F2657007A53ED /* Sources */,
+				E5675E96212F2657007A53ED /* Frameworks */,
+				E5675E97212F2657007A53ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5675E9B212F2657007A53ED /* PBXTargetDependency */,
+			);
+			name = "Mercury-iOSTests";
+			productName = "Mercury-iOSTests";
+			productReference = E5675E99212F2657007A53ED /* Mercury-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5675EA3212F2658007A53ED /* Mercury-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5675EB3212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOSUITests" */;
+			buildPhases = (
+				E5675EA0212F2658007A53ED /* Sources */,
+				E5675EA1212F2658007A53ED /* Frameworks */,
+				E5675EA2212F2658007A53ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5675EA6212F2658007A53ED /* PBXTargetDependency */,
+			);
+			name = "Mercury-iOSUITests";
+			productName = "Mercury-iOSUITests";
+			productReference = E5675EA4212F2658007A53ED /* Mercury-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5675E7D212F2653007A53ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mpc;
+				TargetAttributes = {
+					E5675E84212F2653007A53ED = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E5675E98212F2657007A53ED = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E5675E84212F2653007A53ED;
+					};
+					E5675EA3212F2658007A53ED = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E5675E84212F2653007A53ED;
+					};
+				};
+			};
+			buildConfigurationList = E5675E80212F2653007A53ED /* Build configuration list for PBXProject "Mercury-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5675E7C212F2653007A53ED;
+			productRefGroup = E5675E86212F2653007A53ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5675E84212F2653007A53ED /* Mercury-iOS */,
+				E5675E98212F2657007A53ED /* Mercury-iOSTests */,
+				E5675EA3212F2658007A53ED /* Mercury-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5675E83212F2653007A53ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5675E93212F2657007A53ED /* LaunchScreen.storyboard in Resources */,
+				E5675E90212F2657007A53ED /* Assets.xcassets in Resources */,
+				E5675E8E212F2653007A53ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675E97212F2657007A53ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675EA2212F2658007A53ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5675E81212F2653007A53ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5675E8B212F2653007A53ED /* ViewController.swift in Sources */,
+				E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675E95212F2657007A53ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5675E9E212F2657007A53ED /* Mercury_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5675EA0212F2658007A53ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5675EA9212F2658007A53ED /* Mercury_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5675E9B212F2657007A53ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5675E84212F2653007A53ED /* Mercury-iOS */;
+			targetProxy = E5675E9A212F2657007A53ED /* PBXContainerItemProxy */;
+		};
+		E5675EA6212F2658007A53ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5675E84212F2653007A53ED /* Mercury-iOS */;
+			targetProxy = E5675EA5212F2658007A53ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5675E8C212F2653007A53ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5675E8D212F2653007A53ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5675E91212F2657007A53ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5675E92212F2657007A53ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5675EAB212F2658007A53ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5675EAC212F2658007A53ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5675EAE212F2658007A53ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5675EAF212F2658007A53ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5675EB1212F2658007A53ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercury-iOS.app/Mercury-iOS";
+			};
+			name = Debug;
+		};
+		E5675EB2212F2658007A53ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mercury-iOS.app/Mercury-iOS";
+			};
+			name = Release;
+		};
+		E5675EB4212F2658007A53ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mercury-iOS";
+			};
+			name = Debug;
+		};
+		E5675EB5212F2658007A53ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5U3KF2575;
+				INFOPLIST_FILE = "Mercury-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mpc.Mercury-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mercury-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5675E80212F2653007A53ED /* Build configuration list for PBXProject "Mercury-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5675EAB212F2658007A53ED /* Debug */,
+				E5675EAC212F2658007A53ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5675EAD212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5675EAE212F2658007A53ED /* Debug */,
+				E5675EAF212F2658007A53ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5675EB0212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5675EB1212F2658007A53ED /* Debug */,
+				E5675EB2212F2658007A53ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5675EB3212F2658007A53ED /* Build configuration list for PBXNativeTarget "Mercury-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5675EB4212F2658007A53ED /* Debug */,
+				E5675EB5212F2658007A53ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5675E7D212F2653007A53ED /* Project object */;
+}
