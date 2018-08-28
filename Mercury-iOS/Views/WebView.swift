@@ -49,7 +49,6 @@ class WebView: UIView, UIWebViewDelegate {
     }
     
     func webViewDidStartLoad(_ webView: UIWebView){
-        //activityIndicator.isHidden = false
         activityIndicator.color = .orange
         activityIndicator.alpha = 1.0
         activityIndicator.startAnimating()
