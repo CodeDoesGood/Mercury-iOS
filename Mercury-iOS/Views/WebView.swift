@@ -17,6 +17,8 @@ class WebView: UIView, UIWebViewDelegate {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        print("*** scale: \(scaleFactor)")
+        
         /* Setup main view for window */
         view = UIView(frame: frame)
         guard let view = view else { return }
@@ -32,6 +34,7 @@ class WebView: UIView, UIWebViewDelegate {
         activityIndicator.frame = CGRect(x: 0.0, y: 0.0, width: 40.0, height: 40.0)
         activityIndicator.hidesWhenStopped = true
         view.addSubview(activityIndicator)
+        activityIndicator.transform = CGAffineTransform(scaleX: scaleFactor, y: scaleFactor)
         activityIndicator.center = view.center
         
         /* Load organization website in webview */

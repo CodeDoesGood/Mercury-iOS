@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E537D7EB213597C100E423B6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537D7EA213597C100E423B6 /* WebView.swift */; };
+		E537D7EE21371BA500E423B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537D7ED21371BA400E423B6 /* Utils.swift */; };
 		E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E88212F2653007A53ED /* AppDelegate.swift */; };
 		E5675E8B212F2653007A53ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E8A212F2653007A53ED /* ViewController.swift */; };
 		E5675E90212F2657007A53ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5675E8F212F2657007A53ED /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		E537D7EA213597C100E423B6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E537D7ED21371BA400E423B6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E5675E85212F2653007A53ED /* Mercury-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercury-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5675E88212F2653007A53ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5675E8A212F2653007A53ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E537D7EC21371B8300E423B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E537D7ED21371BA400E423B6 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		E5675E7C212F2653007A53ED = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		E5675E87212F2653007A53ED /* Mercury-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E537D7EC21371B8300E423B6 /* Utils */,
 				E5675EBC21337AC7007A53ED /* Constants */,
 				E5675EB92131C51E007A53ED /* Controllers */,
 				E5675EB72131C502007A53ED /* ModelViews */,
@@ -306,6 +317,7 @@
 				E5675E8B212F2653007A53ED /* ViewController.swift in Sources */,
 				E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */,
 				E5675EBE21337AEC007A53ED /* Constants.swift in Sources */,
+				E537D7EE21371BA500E423B6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
