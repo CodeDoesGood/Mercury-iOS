@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E537D7EB213597C100E423B6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537D7EA213597C100E423B6 /* WebView.swift */; };
+		E537D7EE21371BA500E423B6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E537D7ED21371BA400E423B6 /* Utils.swift */; };
 		E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E88212F2653007A53ED /* AppDelegate.swift */; };
 		E5675E8B212F2653007A53ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E8A212F2653007A53ED /* ViewController.swift */; };
-		E5675E8E212F2653007A53ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5675E8C212F2653007A53ED /* Main.storyboard */; };
 		E5675E90212F2657007A53ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5675E8F212F2657007A53ED /* Assets.xcassets */; };
 		E5675E93212F2657007A53ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5675E91212F2657007A53ED /* LaunchScreen.storyboard */; };
 		E5675E9E212F2657007A53ED /* Mercury_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675E9D212F2657007A53ED /* Mercury_iOSTests.swift */; };
 		E5675EA9212F2658007A53ED /* Mercury_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675EA8212F2658007A53ED /* Mercury_iOSUITests.swift */; };
+		E5675EBB2131C728007A53ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675EBA2131C728007A53ED /* MainViewController.swift */; };
+		E5675EBE21337AEC007A53ED /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5675EBD21337AEC007A53ED /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E537D7EA213597C100E423B6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E537D7ED21371BA400E423B6 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E5675E85212F2653007A53ED /* Mercury-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercury-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5675E88212F2653007A53ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5675E8A212F2653007A53ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5675E8D212F2653007A53ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5675E8F212F2657007A53ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5675E92212F2657007A53ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5675E94212F2657007A53ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		E5675EA4212F2658007A53ED /* Mercury-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mercury-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5675EA8212F2658007A53ED /* Mercury_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercury_iOSUITests.swift; sourceTree = "<group>"; };
 		E5675EAA212F2658007A53ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5675EBA2131C728007A53ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E5675EBD21337AEC007A53ED /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E537D7EC21371B8300E423B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E537D7ED21371BA400E423B6 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		E5675E7C212F2653007A53ED = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +111,14 @@
 		E5675E87212F2653007A53ED /* Mercury-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E537D7EC21371B8300E423B6 /* Utils */,
+				E5675EBC21337AC7007A53ED /* Constants */,
+				E5675EB92131C51E007A53ED /* Controllers */,
+				E5675EB72131C502007A53ED /* ModelViews */,
+				E5675EB62131C4F4007A53ED /* Models */,
+				E5675EB82131C512007A53ED /* Views */,
 				E5675E88212F2653007A53ED /* AppDelegate.swift */,
 				E5675E8A212F2653007A53ED /* ViewController.swift */,
-				E5675E8C212F2653007A53ED /* Main.storyboard */,
 				E5675E8F212F2657007A53ED /* Assets.xcassets */,
 				E5675E91212F2657007A53ED /* LaunchScreen.storyboard */,
 				E5675E94212F2657007A53ED /* Info.plist */,
@@ -123,6 +142,44 @@
 				E5675EAA212F2658007A53ED /* Info.plist */,
 			);
 			path = "Mercury-iOSUITests";
+			sourceTree = "<group>";
+		};
+		E5675EB62131C4F4007A53ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5675EB72131C502007A53ED /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		E5675EB82131C512007A53ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E537D7EA213597C100E423B6 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5675EB92131C51E007A53ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5675EBA2131C728007A53ED /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5675EBC21337AC7007A53ED /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E5675EBD21337AEC007A53ED /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +288,6 @@
 			files = (
 				E5675E93212F2657007A53ED /* LaunchScreen.storyboard in Resources */,
 				E5675E90212F2657007A53ED /* Assets.xcassets in Resources */,
-				E5675E8E212F2653007A53ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +312,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5675EBB2131C728007A53ED /* MainViewController.swift in Sources */,
+				E537D7EB213597C100E423B6 /* WebView.swift in Sources */,
 				E5675E8B212F2653007A53ED /* ViewController.swift in Sources */,
 				E5675E89212F2653007A53ED /* AppDelegate.swift in Sources */,
+				E5675EBE21337AEC007A53ED /* Constants.swift in Sources */,
+				E537D7EE21371BA500E423B6 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5675E8C212F2653007A53ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5675E8D212F2653007A53ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5675E91212F2657007A53ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
