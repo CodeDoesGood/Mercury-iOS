@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/** Returns UIScreen.main.scale */
 var scaleFactor: CGFloat {
     return UIScreen.main.scale
 }
