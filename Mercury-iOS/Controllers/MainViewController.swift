@@ -10,6 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController  {
 
+    /* UIView that defines and displays the website in a UIWebView */
     var webView: WebView?
 
     override func viewWillAppear(_ animated: Bool) {
